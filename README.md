@@ -26,6 +26,16 @@
 - 🎓 在校大学生，做过校园二手交易平台、AI 职业规划助手、健康管理等项目
 - ⚡ 平时喜欢打篮球 🏀、写点小工具、折腾新东西
 
+
+## 🏆 ARC-Bench 黑客松
+
+在 [ARC-Bench](https://arc-bench.com/) 黑客松里，从零造了一个**通用 Agent**——不是"会写网站的模型"，而是能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题的系统：
+
+- 🧠 设计并落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
+- 📉 坚持 **task-agnostic · 以不变应万变**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
+- 📝 踩过的坑都变成了架构：Agent 的"完成"≠ evaluator 的"完成"（contract 精确匹配）、repair 会毁掉正确的东西（best-candidate 防回归）、超时进程泄漏（端口自检）
+- 📄 完整复盘：[arc-bench-hackathon-review](https://github.com/WuxieLUK/arc-bench-hackathon-review)（私人仓库）
+
 ## 🛠️ 技术栈
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
