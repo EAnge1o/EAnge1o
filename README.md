@@ -32,7 +32,7 @@
 | --- | --- | --- |
 | [ai-study-copilot](https://github.com/WuxieLUK/ai-study-copilot) | AI 学习助手：上传课程资料，获得带引用的 RAG 答疑、自动测验与错题分析 | `Next.js 16` `Supabase pgvector` `DeepSeek` `TypeScript` |
 | [ai-interview-coach](https://github.com/WuxieLUK/ai-interview-coach) | AI 面试陪练：模拟面试、逐题点评、能力画像 | `Flask` `SQLite` `LLM` |
-| [octos-arc](https://github.com/WuxieLUK/octos-arc) | ARC-Bench 黑客松 Agent harness，团队版本同步 | `Python` `Agent` |
+| [octos-arc](https://github.com/WuxieLUK/octos-arc) | ARC-Bench Web 任务生成 Agent：需求树 → 工具调用 → 构建 / 启动 / 验收 | `Python` `Agent` |
 | [AI-IDE-Agent-Prompts](https://github.com/WuxieLUK/AI-IDE-Agent-Prompts) | AI IDE Agent 提示词库 | `Prompt Engineering` |
 
 ## 🌐 全栈应用
