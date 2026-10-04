@@ -26,13 +26,24 @@
 | [nimbus-git](https://github.com/WuxieLUK/nimbus-git) | 从零实现 Git，兼容原生 `git` | 对象模型、DIRC index、refs、工作区快照、O((N+M)D) Myers diff |
 | [nimbus-kv](https://github.com/WuxieLUK/nimbus-kv) | 从零实现 Raft 一致性 KV 存储 | Raft 选举/日志复制/持久化、零运行时依赖 |
 
+## 🏆 黑客松
+
+### [octos-arc](https://github.com/WuxieLUK/octos-arc)
+
+从零造了一个 **通用 Agent**：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
+
+- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
+- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
+- 📝 复盘沉淀在私人仓库（可私下分享）
+
+> 后续参赛 / 复盘项目会持续补充到这里。
+
 ## 🤖 AI / Agent
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
 | [ai-study-copilot](https://github.com/WuxieLUK/ai-study-copilot) | AI 学习助手：上传课程资料，获得带引用的 RAG 答疑、自动测验与错题分析 | `Next.js 16` `Supabase pgvector` `DeepSeek` `TypeScript` |
 | [ai-interview-coach](https://github.com/WuxieLUK/ai-interview-coach) | AI 面试陪练：模拟面试、逐题点评、能力画像 | `Flask` `SQLite` `LLM` |
-| [octos-arc](https://github.com/WuxieLUK/octos-arc) | ARC-Bench Web 任务生成 Agent：需求树 → 工具调用 → 构建 / 启动 / 验收 | `Python` `Agent` |
 | [AI-IDE-Agent-Prompts](https://github.com/WuxieLUK/AI-IDE-Agent-Prompts) | AI IDE Agent 提示词库 | `Prompt Engineering` |
 
 ## 🌐 全栈应用
@@ -49,14 +60,6 @@
 | --- | --- | --- |
 | [nba2k27-keyboard-remap](https://github.com/WuxieLUK/nba2k27-keyboard-remap) | NBA 2K27 系统级按键重映射，解决游戏内无法改键 | `Go` |
 | [bot](https://github.com/WuxieLUK/bot) | 实验性 Bot | WIP |
-
-## 🏆 ARC-Bench 黑客松
-
-从零造了一个 **通用 Agent**：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
-
-- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
-- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
-- 📝 复盘沉淀在私人仓库（可私下分享）
 
 ## 🛠️ 技术栈
 
