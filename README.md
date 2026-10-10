@@ -25,6 +25,7 @@
 | [nimbus-vm](https://github.com/WuxieLUK/nimbus-vm) | 从零实现编译器 + 字节码 VM，语言名 Nimbus | 词法/语法/语义解析、46 指令 VM、闭包与 upvalue、类继承、标记-清扫 GC |
 | [nimbus-git](https://github.com/WuxieLUK/nimbus-git) | 从零实现 Git，兼容原生 `git` | 对象模型、DIRC index、refs、工作区快照、O((N+M)D) Myers diff |
 | [nimbus-kv](https://github.com/WuxieLUK/nimbus-kv) | 从零实现 Raft 一致性 KV 存储 | Raft 选举/日志复制/持久化、零运行时依赖 |
+| [nimbus-infer](https://github.com/WuxieLUK/nimbus-infer) | 从零实现 LLM 推理引擎，只依赖 NumPy | 字节级 BPE 分词、KV Cache、因果注意力、RoPE/GQA/SwiGLU、手写 safetensors、int8/int4 量化、GPT-2 与 LLaMA 双架构 |
 
 ## 🏆 黑客松
 
