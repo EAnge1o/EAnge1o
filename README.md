@@ -26,6 +26,7 @@
 | [nimbus-git](https://github.com/EAnge1o/nimbus-git) | 从零实现 Git，兼容原生 `git` | 对象模型、DIRC index、refs、工作区快照、O((N+M)D) Myers diff |
 | [nimbus-kv](https://github.com/EAnge1o/nimbus-kv) | 从零实现 Raft 一致性 KV 存储 | Raft 选举/日志复制/持久化、零运行时依赖 |
 | [nimbus-infer](https://github.com/EAnge1o/nimbus-infer) | 从零实现 LLM 推理引擎，只依赖 NumPy | 字节级 BPE 分词、KV Cache、因果注意力、RoPE/GQA/SwiGLU、手写 safetensors、int8/int4 量化、GPT-2 与 LLaMA 双架构 |
+| [nimbus-chain](https://github.com/EAnge1o/nimbus-chain) | 从零实现区块链 + 文档存证应用，零依赖 | 手写 secp256k1/ECDSA（RFC 6979）、SHA-256/RIPEMD-160、Merkle 证明、栈式脚本解释器（P2PKH/P2SH/多签）、PoW 与 4 倍钳制难度调整、按累计工作量分叉重组、SPV 轻客户端、asyncio P2P |
 
 ## 🏆 黑客松
 
