@@ -30,6 +30,22 @@
 
 ## 🏆 黑客松
 
+### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛
+
+`🔴 参赛中` 基于**麦当劳中国官方 MCP** 的点单助手。起点不是菜单，是**你的历史订单**——交互动词是「改」，不是「选」。
+
+- 🍟 **零 SDK 手写 MCP 客户端**：`https://mcp.mcd.cn` 上 35 个 Tool，用 JSON-RPC 2.0 直连，实际调用 7 个（门店 / 菜单 / 核价 / 优惠券 / 历史订单 / 下单），Token 只存在于服务端进程环境变量
+- 🧾 **每次核价都拿官方结果**：门店实时菜单 + 官方 `calculate-price`，金额可查 `traceId`；无返回的金额显示 `—` 而不是按 0 算
+- 🗣️ **「还是老样子」到「不要薯条，预算 20 以内」**：一句话解析成结构化修改后改单，而不是拿一句话去搜商品
+- 🔒 **必须勾选「我已核对」才提交**，系统不会替用户下单
+- 🎨 纯黑 + 红黄撞色 + Fusion Pixel 点阵字体，标题与全部数字像素化
+
+| | 麦当劳 App | 麦麦老样子 |
+| --- | --- | --- |
+| 起点 | 全量菜单 + 推荐位 | **你最近一单** |
+| 交互 | 重新挑选 | **说一句「改哪里」** |
+| 金额 | 平台标价 | **每次 MCP 官方核价** |
+
 ### [octos-arc](https://github.com/EAnge1o/octos-arc)
 
 从零造了一个 **通用 Agent**：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
@@ -70,6 +86,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-42B883?style=flat-square&logo=vue.js&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
