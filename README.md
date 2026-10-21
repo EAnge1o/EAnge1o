@@ -49,13 +49,13 @@
 
 > 源码在私人仓库，如有交流意向可联系。
 
-### [octos-arc](https://github.com/EAnge1o/octos-arc)
+### [octos-arc（初版测试agent）](https://github.com/EAnge1o/octos-arc)
 
-从零造了一个 **通用 Agent**：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
+使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
 
 - 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
 - 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
-- 📝 复盘沉淀在私人仓库（可私下分享）
+- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
 
 > 后续参赛 / 复盘项目会持续补充到这里。
 
