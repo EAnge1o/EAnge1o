@@ -49,7 +49,7 @@
 
 > 源码在私人仓库，如有交流意向可联系。
 
-### [octos-arc（初版测试agent）](https://github.com/EAnge1o/octos-arc)
+### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
 
 使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
 
