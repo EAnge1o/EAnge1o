@@ -30,28 +30,47 @@
 
 ## 🏆 黑客松
 
-几场比赛的共同点：喜欢在严苛的约束里，把一件事从头做到底。
+### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛
 
-### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛　`参赛中`
+`🔴 参赛中` 基于麦当劳官方 MCP 的点单助手。起点不是菜单，是你最近的一单。
 
-我自己就是那种天天点一样东西的人，但 App 每次都让我从头选。所以这个助手的起点不是菜单，是**你最近一单**——说一句"今天不要薯饼"就够了。没用官方 SDK，手写了 MCP 客户端（35 个 Tool 里实际用 7 个）；每次核价走官方接口、金额能查到 `traceId`；下单前必须手动勾"我已核对"，系统不替任何人按确认。
+- 🍟 零 SDK 手写 MCP 客户端，35 个 Tool 里实际用 7 个
+- 🧾 每次核价取官方结果，金额可查 `traceId`
+- 🔒 勾选「我已核对」才提交，系统不替用户下单
 
-### [midnight-oracle](https://github.com/EAnge1o/midnight-oracle) · 小红书小工具创意大赛　`参赛中`
+### [midnight-oracle](https://github.com/EAnge1o/midnight-oracle) · 小红书小工具创意大赛
 
-做之前查了一圈，纯塔罗和纯答案之书都烂大街了。差异点是把两者缝起来：抽到哪张牌，就翻开哪一页——牌面是插图，提示语是那一页唯一的一句话。文案花的时间最多：264 句全部只说"人"、不说"事"，所以"他会不会回来"和"我该不该离职"能套上同一句。全程离线、音效靠 Web Audio 实时合成、交付包卡在 1.94 MiB——这些是小红书小工具容器逼出来的约束，倒是让它干净了不少。
+🔴 参赛中 离线「塔罗 + 答案之书」小工具。把抽到的牌面当成答案之书的那一页——牌给意象，一句话替你开口。
 
-> 在线体验：<https://eange1o.github.io/midnight-oracle/>
+- 🌙 差异化路线：塔罗意象 × 答案之书，不预测未来、不收集问题
+- 📖 264 句提示语，22 张大阿尔卡那 × 正逆位 × 6 种此刻状态
+- 🔇 音效全部 Web Audio 实时合成，0 个音频资源；全程离线 0 网络请求
+- 📱 严格遵循小红书小工具容器约束：单 HTML 入口、Chrome 61 兼容、交付包 1.94 MiB
+- 🖼️ 1080×1440 竖版分享卡，正好小红书图文比例
 
-### TruLens · 欧莱雅黑客松　`已提交`
+> 在线体验 & 项目主页：<https://eange1o.github.io/midnight-oracle/>
 
-赛题二"信任守护师"。给一条看起来完整的美妆种草帖做多模态真实性核验：账号、图片、评论、文案四个维度各自出分，再合成一份带证据链的报告。最难的是评测——没有现成数据集，自己标了 22 条样本（伪造 + 对照）搭了套黑盒评估。后端 FastAPI + React 前端，图像取证用了 TruFor / FerretNet / NFA-ViT，多模态推理走 DeepSeek 和 Qwen VL。
 
-> 源码在私人仓库，想交流可以找我。
+### TruLens · 欧莱雅黑客松
 
-### [octos-arc](https://github.com/EAnge1o/octos-arc) · 初版 Agent，迭代在私人仓库
+`✅ 已提交` 赛题二「信任守护师 — 创造者的 AI 卫士」：面向美妆护肤种草内容的多模态真实性核验 Agent，把一条看似完整的种草帖拆开看。
 
-用 octos 框架从零搭了一个能跑通完整闭环的 Agent：理解需求 → 写代码 → 部署 → 自己开浏览器测 → 发现问题再修。最有意思的是坚持 task-agnostic，靠 A/B 实验把一次任务的 token 消耗从 1.66 亿压到 5400 万。复盘和进阶版本在私人仓库，可以私下分享。
+- 🔍 四维可信度分析：T 账号可信度 / R 图片真实性 / U 评论区真实性 / S 文案真实性，每维独立出分 + 可解释证据链
+- 🧠 多 Agent 架构：account / image / comment / text 四个分析 Agent + 融合报告 Agent，全链路带 engine trace
+- 📊 自建评测框架与标注数据集（22 条样本黑盒评估），覆盖伪造与对照样本
+- 🏗️ FastAPI 后端 + React 前端 + content-trust-engine 分析引擎（TruFor / FerretNet / NFA-ViT 图像取证 + DeepSeek / Qwen VL 多模态推理）
 
+> 源码在私人仓库，如有交流意向可联系。
+
+### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
+
+使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
+
+- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
+- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
+- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
+
+> 后续参赛 / 复盘项目会持续补充到这里。
 
 ## 🤖 AI / Agent
 
