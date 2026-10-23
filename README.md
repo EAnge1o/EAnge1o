@@ -20,6 +20,27 @@
 
 ## 🏆 黑客松
 
+### TruLens · 欧莱雅黑客松
+`✅ 已提交` 赛题二「信任守护师 — 创造者的 AI 卫士」：面向美妆护肤种草内容的多模态真实性核验 Agent，把一条看似完整的种草帖拆开看。
+
+- 🔍 四维可信度分析：T 账号可信度 / R 图片真实性 / U 评论区真实性 / S 文案真实性，每维独立出分 + 可解释证据链
+- 🧠 多 Agent 架构：account / image / comment / text 四个分析 Agent + 融合报告 Agent，全链路带 engine trace
+- 📊 自建评测框架与标注数据集（22 条样本黑盒评估），覆盖伪造与对照样本
+- 🏗️ FastAPI 后端 + React 前端 + content-trust-engine 分析引擎（TruFor / FerretNet / NFA-ViT 图像取证 + DeepSeek / Qwen VL 多模态推理）
+
+> 源码在私人仓库，如有交流意向可联系。
+
+### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
+
+使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
+
+- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
+- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
+- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
+
+> 后续参赛 / 复盘项目会持续补充到这里。
+
+
 ### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛
 
 `🔴 参赛中` 基于麦当劳官方 MCP 的点单助手。起点不是菜单，是你最近的一单。
@@ -40,27 +61,6 @@
 
 > 在线体验 & 项目主页：<https://eange1o.github.io/midnight-oracle/>
 
-
-### TruLens · 欧莱雅黑客松
-
-`✅ 已提交` 赛题二「信任守护师 — 创造者的 AI 卫士」：面向美妆护肤种草内容的多模态真实性核验 Agent，把一条看似完整的种草帖拆开看。
-
-- 🔍 四维可信度分析：T 账号可信度 / R 图片真实性 / U 评论区真实性 / S 文案真实性，每维独立出分 + 可解释证据链
-- 🧠 多 Agent 架构：account / image / comment / text 四个分析 Agent + 融合报告 Agent，全链路带 engine trace
-- 📊 自建评测框架与标注数据集（22 条样本黑盒评估），覆盖伪造与对照样本
-- 🏗️ FastAPI 后端 + React 前端 + content-trust-engine 分析引擎（TruFor / FerretNet / NFA-ViT 图像取证 + DeepSeek / Qwen VL 多模态推理）
-
-> 源码在私人仓库，如有交流意向可联系。
-
-### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
-
-使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
-
-- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
-- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
-- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
-
-> 后续参赛 / 复盘项目会持续补充到这里。
 
 
 
