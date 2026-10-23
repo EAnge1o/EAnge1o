@@ -32,10 +32,9 @@
 
 ### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
 
-使用octos框架从零造了一个  Agent：能理解陌生需求、自己写代码、自己部署、自己跑浏览器测试、自己发现并修复问题。
+一个基于 Octos 的自主软件工程 Agent，能把需求文档和参考图转换成可运行的全栈 Web 应用
+通过 Playwright 自测和修复闭环迭代，并在 ARC-Bench 的隐藏测试与成本约束下评估
 
-- 🧠 落地 **Universal Core**：需求分析 → Scenario IR → 依赖规划 → 实现 → 验证 → 修复决策 → 防回归 → best-candidate 交付
-- 📉 坚持 **task-agnostic**，用 A/B 实验把 token 消耗从 1.66 亿压到 5400 万
 - 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
 
 > 后续参赛 / 复盘项目会持续补充到这里。
