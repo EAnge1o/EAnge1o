@@ -15,7 +15,7 @@
 
 - 🎓 在校学生
 - 🔥 技术主线：**系统底层 / 编译器 / 分布式** + **AI 应用**
-- 🌱 正在深耕：字节码 VM、Raft、RAG、Agent、工具链
+- 🌱 正在深耕：字节码 VM、Raft、RAG、Agent、Rust 高性能推理内核
 - ⚡ 平时写小工具、打篮球 🏀、折腾新东西
 
 ## 🏆 黑客松
@@ -75,6 +75,7 @@
 
 | 项目 | 一句话说明 | 技术亮点 |
 | --- | --- | --- |
+| [nimbus-infer-rs](https://github.com/EAnge1o/nimbus-infer-rs) ⭐ 新 | LLM 推理引擎的 Rust 零依赖重写版 | 手写 AVX2/FMA 内核（f32/int8/int4 流式量化）、自实现 JSON/safetensors/BPE、GPT-2 与 LLaMA 双架构、与 Python 版逐 token 一致；gpt2-124M 上 int4 解码吞吐 +85%、内存 1/7.5 |
 | [nimbus-vm](https://github.com/EAnge1o/nimbus-vm) | 编译器 + 字节码 VM，语言名 Nimbus | 词法/语法/语义解析、46 指令 VM、闭包与 upvalue、类继承、标记-清扫 GC |
 | [nimbus-git](https://github.com/EAnge1o/nimbus-git) |  Git，兼容原生 `git` | 对象模型、DIRC index、refs、工作区快照、O((N+M)D) Myers diff |
 | [nimbus-kv](https://github.com/EAnge1o/nimbus-kv) |  Raft 一致性 KV 存储 | Raft 选举/日志复制/持久化、零运行时依赖 |
