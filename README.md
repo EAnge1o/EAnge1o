@@ -63,6 +63,14 @@
 
 
 
+### [Kaggle-Google-The-Gemma-4-Developer-Agent](https://github.com/EAnge1o/Kaggle-Google-The-Gemma-4-Developer-Agent) · Kaggle Google - The Gemma 4 Developer Agent
+
+`🔴 比赛中` 基于 Gemma 4 的开发 Agent，比赛中，待上传分享。
+
+### [ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3) · ARC Prize 2026 - ARC-AGI-3
+
+`🔴 比赛中` ARC-AGI-3 方案，比赛中，待上传分享。
+
 ## 🔥 Nimbus 系统系列
 
 | 项目 | 一句话说明 | 技术亮点 |
