@@ -88,6 +88,7 @@
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
+| [tapedeck](https://github.com/EAnge1o/tapedeck) ⭐ 新 | Agent 飞行记录仪：录一次（REC），离线免费重放（PLAY），diff 出第一个漂移步骤；录制即回归测试 | `零依赖` `JSONL trace` `CI exit codes` `脱敏` |
 | [ai-study-copilot](https://github.com/EAnge1o/ai-study-copilot) | AI 学习助手：上传课程资料，获得带引用的 RAG 答疑、自动测验与错题分析 | `Next.js 16` `Supabase pgvector` `DeepSeek` `TypeScript` |
 | [ai-interview-coach](https://github.com/EAnge1o/ai-interview-coach) | AI 面试陪练：模拟面试、逐题点评、能力画像 | `Flask` `SQLite` `LLM` |
 | [AI-IDE-Agent-Prompts](https://github.com/EAnge1o/AI-IDE-Agent-Prompts) | AI IDE Agent 提示词库 | `Prompt Engineering` |
