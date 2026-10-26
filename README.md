@@ -105,6 +105,7 @@
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
+| [mocktape](https://github.com/EAnge1o/mocktape) ⭐ 新 | 📼 单文件 Mock API：一份 JSON 配置即得完整 CRUD API，亦可录制真实接口、离线重放 cassette；场景切换、故障注入与延迟、404 最近匹配诊断、实时流量 Dashboard | `TypeScript` `Node.js` `Record & Replay` `Fault Injection` |
 | [nba2k27-keyboard-remap](https://github.com/EAnge1o/nba2k27-keyboard-remap) | NBA 2K27 系统级按键重映射，解决游戏内无法改键 | `Go` |
 | [bot](https://github.com/EAnge1o/bot) | 实验性 Bot | WIP |
 
