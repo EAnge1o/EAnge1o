@@ -1,6 +1,6 @@
-# 你好，我是 E'Angelo 👋
+# there is E'Angelo 👋
 
-写 TypeScript / Rust / Python。喜欢两件事：**把工具做到能发布**，**为搞懂原理从零造轮子**。
+山高万尺如登楼 莫忧莫惧莫回头
 
 ## 🚀 旗舰项目
 
@@ -23,6 +23,7 @@
 
 **Kaggle**
 - **[Predicting-Airline-Satisfaction](https://github.com/EAnge1o/Predicting-Airline-Satisfaction)** — Kaggle Playground S6E10：固定折验证 + 航线特征 + 嵌套 OOF 堆叠，公开榜 AUC `0.96213`（当时 122 / 3142）
+- **[ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3)** — ARC Prize 2026（ARC-AGI-3）求解方案 🚧 *进行中*
 - **[Kaggle-Google-The-Gemma-4-Developer-Agent](https://github.com/EAnge1o/Kaggle-Google-The-Gemma-4-Developer-Agent)** — 基于 Gemma 4 的开发者 Agent 方案 🚧 *进行中*
 
 **比赛**
@@ -30,7 +31,6 @@
 - **[midnight-oracle](https://github.com/EAnge1o/midnight-oracle)** — 镜映心：离线「塔罗 + 答案之书」小工具，全程 0 网络请求 · [在线体验](https://eange1o.github.io/midnight-oracle/) · 小红书小工具创意大赛 🚧 *进行中*
 
 **黑客松**
-- **[ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3)** — ARC Prize 2026（ARC-AGI-3）求解方案 🚧 *进行中*
 - **TruLens · 欧莱雅黑客松** — 面向美妆种草内容的多模态真实性核验 Agent：四维可信度分析 + 多 Agent 架构（源码在私人仓库）
 - **[octos-arc](https://github.com/EAnge1o/octos-arc)** — ARC-Bench 黑客松：自主软件工程 Agent，需求文档 + 参考图 → 可运行全栈 Web 应用
 
