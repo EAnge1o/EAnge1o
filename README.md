@@ -7,17 +7,9 @@
 **[tapedeck](https://github.com/EAnge1o/tapedeck)** — LLM Agent 飞行记录仪 ⏺
 *Record once (REC), replay forever offline for free (PLAY), diff what drifted. Zero dependencies.*
 
-把 Agent 的一次完整运行（模型调用、工具调用、usage）录成带版本号的 JSONL trace；改完代码离线逐字节重放，零 API 成本；两个 run 一条命令 diff，直接定位第一个漂移的步骤。纯标准库零依赖，diff 退出码直连 CI 做回归测试。
+把 Agent 的一次完整运行（模型调用、工具调用、usage）录成带版本号的 JSONL trace；改完代码离线逐字节重放，零 API 成本；两个 run 一条命令 diff，直接定位第一个漂移的步骤。纯标准库零依赖，diff 退出码直连 CI 做回归测试。`tape.watch(client)` 还能直接拦截 OpenAI / Anthropic / DeepSeek SDK 的调用（含流式），不改业务代码就有录制与重放；自带 pytest fixture。`pip install tapedeck-llm`。
 
-**[mocktape](https://github.com/EAnge1o/mocktape)** — Mock API 服务器 CLI 📼
-*Mock APIs from a single file. Record real ones. Replay anywhere.*
-
-一份配置文件生成整套带状态的 CRUD 接口；把真实 API 录制成磁带离线回放，未命中请求自动给出「最近匹配」诊断；支持场景切换、故障注入与实时流量面板。零框架构建于 `node:http`，[v1.0.0 已发布](https://github.com/EAnge1o/mocktape/releases/tag/v1.0.0)。
-
-**[star-radar](https://github.com/EAnge1o/star-radar)** — 开源趋势雷达 📡
-*按「真实增速」而非总量排行，一页看懂开源世界正在发生什么。*
-
-每天自动观测 GitHub：近 24 小时 / 7 天 / 28 天新增 Star 排序，新秀榜、黑马标记与赛道聚类，AI 一句话中文点评。每日快照自动存档，star 曲线随时间生长，内置 817 个真实项目种子库，开箱即用。
+姊妹工具 📼 **[mocktape](https://github.com/EAnge1o/mocktape)** — 同一个"磁带"隐喻用在 HTTP 层：一份配置文件生成带状态的 CRUD 接口，真实 API 录制成磁带离线回放，未命中请求给出「最近匹配」诊断，支持场景切换、故障注入与实时流量面板。mocktape 管 HTTP 流量，tapedeck 管 agent 决策，常常一起出现在同一个测试套件里。
 
 ## 🏆 比赛 · Kaggle · 黑客松
 
@@ -54,6 +46,7 @@
 
 ## 🛠 工具
 
+- **[star-radar](https://github.com/EAnge1o/star-radar)** — 开源趋势雷达：按「真实增速」而非总量排行，每日快照自动存档，AI 一句话中文点评
 - **[nba2k27-keyboard-remap](https://github.com/EAnge1o/nba2k27-keyboard-remap)** — Go 系统级按键重映射，修复游戏内无法改键的问题
 - **[AI-IDE-Agent-Prompts](https://github.com/EAnge1o/AI-IDE-Agent-Prompts)** — AI IDE Agent 提示词库
 - **[bot](https://github.com/EAnge1o/bot)** — 实验性 Bot 🚧 *填充中*
