@@ -71,6 +71,16 @@
 
 `🔴 比赛中` ARC-AGI-3 方案，比赛中，待上传分享。
 
+### [Predicting-Airline-Satisfaction](https://github.com/EAnge1o/Predicting-Airline-Satisfaction) · Kaggle Playground S6E10
+
+`✅ 已提交` 航空公司满意度预测：用固定折验证、航线特征与嵌套 OOF 堆叠，把单模型约 `0.9602` 的 AUC 提升到公开榜 **`0.96213`**，当时排名 **122 / 3142**。
+
+- ✈️ 把 `Flight Distance` 当作航线代理，加入无标签航线画像与折内目标编码
+- 🧪 固定 `StratifiedKFold` 验证面，分别保存 OOF、测试预测和提交结果
+- 🧱 使用独立种子做嵌套 CV 逻辑回归堆叠，并自动筛除高相关近重复成员
+- 📉 公开榜只认超出噪声的增益；最终保留 CV 主提交与 public-max 风险对冲两种不同赌注
+- 📚 仓库包含方法、失败实验、公开方案复盘和可复现代码，不包含比赛数据或预测文件
+
 ## 🔥 Nimbus 系统系列
 
 | 项目 | 一句话说明 | 技术亮点 |
