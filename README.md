@@ -1,6 +1,5 @@
-# 你好，我是 E'Angelo 👋
+#  E'Angelo here 👋
 
-写 TypeScript / Rust / Python。喜欢两件事：**把工具做到能发布**，**为搞懂原理从零造轮子**。
 
 ## 🚀 旗舰项目
 
