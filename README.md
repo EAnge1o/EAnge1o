@@ -9,22 +9,33 @@
 
 </div>
 
+---
+
+## 🧑‍💻 关于我
+
+- 🎓 在校学生
+- 🔥 主线：**Agent 基础设施 / AI 应用 / 全栈**
+- 🏁 常驻赛场：Kaggle · ARC Prize · 黑客松与创意开发大赛
+- ⚡ 平时写小工具、打篮球 🏀、折腾新东西
 
 ---
 
 ## 🚀 旗舰项目
 
-### [tapedeck](https://github.com/EAnge1o/tapedeck) · LLM Agent 飞行记录仪
+**[tapedeck](https://github.com/EAnge1o/tapedeck)** — LLM Agent 飞行记录仪 ⏺
+*Record once (REC), replay forever offline for free (PLAY), diff what drifted. Zero dependencies.*
 
-录一次（REC ⏺），离线免费重放（PLAY ▶），diff 出第一个漂移的步骤（⏩）——录制即回归测试，零依赖。
+把 Agent 的一次完整运行（模型调用、工具调用、usage）录成带版本号的 JSONL trace；改完代码离线逐字节重放，零 API 成本；两个 run 一条命令 diff，直接定位第一个漂移的步骤。纯标准库零依赖，diff 退出码直连 CI 做回归测试。
 
-### [mocktape](https://github.com/EAnge1o/mocktape) · 单文件 Mock API
+**[mocktape](https://github.com/EAnge1o/mocktape)** — Mock API 服务器 CLI 📼
+*Mock APIs from a single file. Record real ones. Replay anywhere.*
 
-一份 JSON 即得完整 CRUD API，亦可录制真实接口、离线重放 cassette；场景切换、故障注入、实时流量 Dashboard。
+一份配置文件生成整套带状态的 CRUD 接口；把真实 API 录制成磁带离线回放，未命中请求自动给出「最近匹配」诊断；支持场景切换、故障注入与实时流量面板。零框架构建于 `node:http`，[v1.0.0 已发布](https://github.com/EAnge1o/mocktape/releases/tag/v1.0.0)。
 
-### [star-radar](https://github.com/EAnge1o/star-radar) · 开源趋势雷达
+**[star-radar](https://github.com/EAnge1o/star-radar)** — 开源趋势雷达 📡
+*按「真实增速」而非总量排行，一页看懂开源世界正在发生什么。*
 
-每天自动观测 GitHub，按「真实增速」而非总量排行；新秀/黑马标记、赛道聚类、AI 中文点评。
+每天自动观测 GitHub：近 24 小时 / 7 天 / 28 天新增 Star 排序，新秀榜、黑马标记与赛道聚类，AI 一句话中文点评。每日快照自动存档，star 曲线随时间生长，内置 817 个真实项目种子库，开箱即用。
 
 ## 🥇 Kaggle
 
