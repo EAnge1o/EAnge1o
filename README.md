@@ -1,6 +1,6 @@
-# there is E'Angelo 👋
+# 你好，我是 E'Angelo 👋
 
-山高万尺如登楼 莫忧莫惧莫回头
+写 TypeScript / Rust / Python。喜欢两件事：**把工具做到能发布**，**为搞懂原理从零造轮子**。
 
 ## 🚀 旗舰项目
 
@@ -23,7 +23,6 @@
 
 **Kaggle**
 - **[Predicting-Airline-Satisfaction](https://github.com/EAnge1o/Predicting-Airline-Satisfaction)** — Kaggle Playground S6E10：固定折验证 + 航线特征 + 嵌套 OOF 堆叠，公开榜 AUC `0.96213`（当时 122 / 3142）
-- **[ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3)** — ARC Prize 2026（ARC-AGI-3）求解方案 🚧 *进行中*
 - **[Kaggle-Google-The-Gemma-4-Developer-Agent](https://github.com/EAnge1o/Kaggle-Google-The-Gemma-4-Developer-Agent)** — 基于 Gemma 4 的开发者 Agent 方案 🚧 *进行中*
 
 **比赛**
@@ -31,8 +30,19 @@
 - **[midnight-oracle](https://github.com/EAnge1o/midnight-oracle)** — 镜映心：离线「塔罗 + 答案之书」小工具，全程 0 网络请求 · [在线体验](https://eange1o.github.io/midnight-oracle/) · 小红书小工具创意大赛 🚧 *进行中*
 
 **黑客松**
+- **[ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3)** — ARC Prize 2026（ARC-AGI-3）求解方案 🚧 *进行中*
 - **TruLens · 欧莱雅黑客松** — 面向美妆种草内容的多模态真实性核验 Agent：四维可信度分析 + 多 Agent 架构（源码在私人仓库）
-- **[octos-arc](https://github.com/EAnge1o/octos-arc)** — ARC-Bench 黑客松：自主软件工程 Agent，需求文档 + 参考图 → 可运行全栈 Web 应用—（后续迭代比赛内容在私人仓库 可交流）
+- **[octos-arc](https://github.com/EAnge1o/octos-arc)** — ARC-Bench 黑客松：自主软件工程 Agent，需求文档 + 参考图 → 可运行全栈 Web 应用
+
+## ⚙️ Nimbus 系列
+
+- **[nimbus-infer-rs](https://github.com/EAnge1o/nimbus-infer-rs)** — 纯 std 的 Rust LLM 推理引擎：手写 AVX2/FMA 内核，int4 解码吞吐 +85%
+- **[nimbus-infer](https://github.com/EAnge1o/nimbus-infer)** — 纯 NumPy 的 LLM 推理引擎：BPE / KV Cache / int8·int4 量化
+- **[nimbus-vm](https://github.com/EAnge1o/nimbus-vm)** — 字节码虚拟机，自带 mark-sweep GC
+- **[nimbus-git](https://github.com/EAnge1o/nimbus-git)** — Git 对象模型：objects / index / refs
+- **[nimbus-db](https://github.com/EAnge1o/nimbus-db)** — SQL 数据库引擎：解析、优化、执行
+- **[nimbus-kv](https://github.com/EAnge1o/nimbus-kv)** — Raft 共识的分布式 KV 存储
+- **[nimbus-chain](https://github.com/EAnge1o/nimbus-chain)** — 零依赖区块链
 
 ## 💼 应用与工程
 
