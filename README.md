@@ -14,12 +14,56 @@
 ## 🧑‍💻 关于我
 
 - 🎓 在校学生
-- 🔥 技术主线：**系统底层 / 编译器 / 分布式** + **AI 应用**
-- 🌱 正在深耕：字节码 VM、Raft、RAG、Agent、Rust 高性能推理内核
+- 🔥 技术主线：**Agent 基础设施 / AI 应用 / 全栈**
+- 🌱 正在深耕：Agent 可测试性、RAG、LLM 推理优化
 - 🏁 常驻赛场：Kaggle · ARC Prize · 各类黑客松与创意开发大赛
 - ⚡ 平时写小工具、打篮球 🏀、折腾新东西
 
 ---
+
+## 🚀 旗舰项目
+
+> 不堆仓库数量，只养能一直用的东西。三个正在长期维护的旗舰：
+
+### [tapedeck](https://github.com/EAnge1o/tapedeck) · 给 LLM Agent 的飞行记录仪
+
+**tapedeck** 录一次（REC ⏺），永久离线重放（PLAY ▶），精确 diff 出第一个漂移的步骤（⏩）。
+
+> 每个做过 Agent 的人都遇到同一个夜晚：**昨天还好好的 agent，今天改了一行 prompt 就坏了。** 重跑一次要花钱，重跑十次才复现，日志里只有一坨 print。tapedeck 把整次运行录成带版本号的 JSONL；之后重放零 API 成本、逐字节确定；两个 run 一条命令 diff，直接告诉你**第几步、哪个调用、从什么值变成了什么值**。
+
+- ⏺ **REC**：模型调用、工具调用、usage 全部记档，trace 就是本地文件，可进 git
+- ▶ **PLAY**：重放 0 次 API 调用、$0.00、逐字节确定——录制即回归测试
+- ⏩ **diff** 退出码直连 CI：`0` 一致 / `1` 输出漂移 / `2` 结构漂移
+- 🧩 纯 Python 标准库，零依赖，不上传任何数据
+
+![tapedeck demo: record / replay / diff](https://raw.githubusercontent.com/EAnge1o/tapedeck/main/docs/demo.svg)
+
+### [mocktape](https://github.com/EAnge1o/mocktape) · 单文件 Mock API
+
+**mocktape** 是前端与集成测试用的 Mock API 服务器：一份配置起一套 CRUD（INIT），录制真实接口存成卡带（REC ⏺），离线随处重放（PLAY ▶）。
+
+> 联调第一天，后端接口还没好；联调第三天，第三方 API 限流、慢、按次收费。mocktape 让前端不再干等：`npx mocktape init` 一份 JSON 就有完整 CRUD；真实接口录一次，之后断网也能重放；404 不再只是 404——它告诉你**最像的是哪个路径、差在哪个参数**。
+
+- 📦 一份 JSON 配置 → 完整 CRUD API，直接建立在 `node:http` 上的轻内核
+- ⏺ 录制真实接口 → 可重放 cassette，测试套件里还能当库用
+- 🧯 最近匹配诊断、场景切换、故障注入与延迟、实时流量 Dashboard
+
+![mocktape in the terminal](https://raw.githubusercontent.com/EAnge1o/mocktape/main/docs/assets/terminal.gif)
+
+### [star-radar](https://github.com/EAnge1o/star-radar) · 开源趋势雷达
+
+**star-radar** 每天自动观测 GitHub，按「真实增速」而非总量排行，一页看懂开源世界正在发生什么。
+
+> 总量榜告诉你谁赢过，增速榜告诉你谁正在爆发。按近 24 小时 / 7 天 / 28 天新增 Star 排序，比总量榜更早发现趋势；新锐项目自动聚成赛道，AI 一句话点评「这是什么 + 为什么火」。
+
+- 📈 增速榜 + 新秀榜（创建 ≤ 30 天就起量）+ 黑马标记 🔥（日增速 > 3× 同语言基线）
+- 🛤️ 实时赛道聚类 + AI 中文点评 ✦
+- 🗄️ 每日快照存档，star 曲线随时间生长；内置 817 个真实项目种子库，开箱即用
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EAnge1o/star-radar/main/screenshots/home.png" alt="StarRadar 首页" width="48%">
+  <img src="https://raw.githubusercontent.com/EAnge1o/star-radar/main/screenshots/fresh.png" alt="StarRadar 新秀榜" width="48%">
+</p>
 
 ## 🥇 Kaggle
 
@@ -38,10 +82,6 @@
 `🔴 比赛中` 基于 Gemma 4 的开发者 Agent 方案，比赛进行中，赛后再上传分享。
 
 ## 🏆 比赛
-
-### [ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3) · ARC Prize 2026（ARC-AGI-3）
-
-`🔴 比赛中` ARC-AGI-3 求解方案，比赛进行中，待上传分享。
 
 ### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛
 
@@ -65,6 +105,10 @@
 
 ## ⚡ 黑客松
 
+### [ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3) · ARC Prize 2026（ARC-AGI-3）
+
+`🔴 比赛中` ARC-AGI-3 求解方案，比赛进行中，待上传分享。
+
 ### TruLens · 欧莱雅黑客松
 
 `✅ 已提交` 赛题二「信任守护师 — 创造者的 AI 卫士」：面向美妆护肤种草内容的多模态真实性核验 Agent，把一条看似完整的种草帖拆开看。
@@ -83,25 +127,10 @@
 - 🔁 Playwright 自测 + 修复的闭环迭代，在 ARC-Bench 的隐藏测试与成本约束下评估
 - 🧬 从初赛打磨到收官共 9 个 agent bundle 演进，完整复盘沉淀在私人仓库（可私下分享）
 
-## 🔥 Nimbus 系统系列
-
-> 不用框架、不加运行时依赖，把一样东西从零造到能用。
-
-| 项目 | 一句话说明 | 技术亮点 |
-| --- | --- | --- |
-| [nimbus-infer-rs](https://github.com/EAnge1o/nimbus-infer-rs) ⭐ 新 | LLM 推理引擎的 Rust 零依赖重写版 | 手写 AVX2/FMA 内核（f32/int8/int4 流式量化）、自实现 JSON/safetensors/BPE、GPT-2 与 LLaMA 双架构、与 Python 版逐 token 一致；gpt2-124M 上 int4 解码吞吐 +85%、内存 1/7.5 |
-| [nimbus-infer](https://github.com/EAnge1o/nimbus-infer) | LLM 推理引擎，只依赖 NumPy | 字节级 BPE 分词、KV Cache、因果注意力、RoPE/GQA/SwiGLU、手写 safetensors、int8/int4 量化、GPT-2 与 LLaMA 双架构 |
-| [nimbus-vm](https://github.com/EAnge1o/nimbus-vm) | 编译器 + 字节码 VM，语言名 Nimbus | 词法/语法/语义解析、46 指令 VM、闭包与 upvalue、类继承、标记-清扫 GC |
-| [nimbus-git](https://github.com/EAnge1o/nimbus-git) | Git，兼容原生 `git` | 对象模型、DIRC index、refs、工作区快照、O((N+M)D) Myers diff |
-| [nimbus-db](https://github.com/EAnge1o/nimbus-db) | 纯 Python 从零实现的 SQL 数据库引擎 | 递归下降 SQL 解析、B+ 树存储、WAL 崩溃恢复、索引 / JOIN / 聚合 |
-| [nimbus-kv](https://github.com/EAnge1o/nimbus-kv) | Raft 一致性 KV 存储 | Raft 选举/日志复制/持久化、零运行时依赖 |
-| [nimbus-chain](https://github.com/EAnge1o/nimbus-chain) | 区块链 + 文档存证应用，零依赖 | 手写 secp256k1/ECDSA（RFC 6979）、SHA-256/RIPEMD-160、Merkle 证明、栈式脚本解释器（P2PKH/P2SH/多签）、PoW 与 4 倍钳制难度调整、按累计工作量分叉重组、SPV 轻客户端、asyncio P2P |
-
 ## 🤖 AI 应用 · Agent
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
-| [tapedeck](https://github.com/EAnge1o/tapedeck) ⭐ 新 | Agent 飞行记录仪：录一次（REC），离线免费重放（PLAY），diff 出第一个漂移步骤；录制即回归测试 | `零依赖` `JSONL trace` `CI exit codes` `脱敏` |
 | [ai-study-copilot](https://github.com/EAnge1o/ai-study-copilot) | AI 学习助手：上传课程资料，获得带引用的 RAG 答疑、自动测验与错题分析 | `Next.js 16` `Supabase pgvector` `DeepSeek` `TypeScript` |
 | [ai-interview-coach](https://github.com/EAnge1o/ai-interview-coach) | AI 面试陪练：模拟面试、逐题点评、能力画像 | `Flask` `SQLite` `LLM` |
 | [AI-IDE-Agent-Prompts](https://github.com/EAnge1o/AI-IDE-Agent-Prompts) | AI IDE Agent 提示词库 | `Prompt Engineering` |
@@ -110,7 +139,6 @@
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
-| [star-radar](https://github.com/EAnge1o/star-radar) ⭐ 新 | 开源趋势雷达：每天自动观测 GitHub，按「真实增速」排行、新秀/黑马标记、赛道聚类 + AI 中文点评 | `FastAPI` `SQLite` `React` `LLM` |
 | [second-hand-trading-platform](https://github.com/EAnge1o/second-hand-trading-platform) | 校园二手交易平台：单体 + 微服务后端，集成 AI（大学生创新项目） | `Java` `Vue3` `MySQL` |
 | [healthApp](https://github.com/EAnge1o/healthApp) | 健康管理 App，集成百度 AI 与豆包大模型 | `uni-app` `Express` `MySQL` |
 | [careeraid-ai](https://github.com/EAnge1o/careeraid-ai) | AI 驱动的大学生职业规划全流程 Web 应用 | `AI` `Web` |
@@ -119,7 +147,6 @@
 
 | 项目 | 一句话说明 | 技术栈 |
 | --- | --- | --- |
-| [mocktape](https://github.com/EAnge1o/mocktape) ⭐ 新 | 📼 单文件 Mock API：一份 JSON 配置即得完整 CRUD API，亦可录制真实接口、离线重放 cassette；场景切换、故障注入与延迟、404 最近匹配诊断、实时流量 Dashboard | `TypeScript` `Node.js` `Record & Replay` `Fault Injection` |
 | [nba2k27-keyboard-remap](https://github.com/EAnge1o/nba2k27-keyboard-remap) | NBA 2K27 系统级按键重映射，解决游戏内无法改键 | `Go` |
 | [bot](https://github.com/EAnge1o/bot) | 实验性 Bot（挖坑中，敬请期待） | WIP |
 
