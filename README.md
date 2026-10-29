@@ -18,7 +18,7 @@
 - 🌱 正在深耕：字节码 VM、Raft、RAG、Agent、Rust 高性能推理内核
 - ⚡ 平时写小工具、打篮球 🏀、折腾新东西
 
-## 🏆 黑客松
+## 🏆 黑客松 · 创意开发大赛
 
 ### TruLens · 欧莱雅黑客松
 `✅ 已提交` 赛题二「信任守护师 — 创造者的 AI 卫士」：面向美妆护肤种草内容的多模态真实性核验 Agent，把一条看似完整的种草帖拆开看。
@@ -29,16 +29,6 @@
 - 🏗️ FastAPI 后端 + React 前端 + content-trust-engine 分析引擎（TruFor / FerretNet / NFA-ViT 图像取证 + DeepSeek / Qwen VL 多模态推理）
 
 > 源码在私人仓库，如有交流意向可联系。
-
-### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
-
-一个基于 Octos 的自主软件工程 Agent，能把需求文档和参考图转换成可运行的全栈 Web 应用
-通过 Playwright 自测和修复闭环迭代，并在 ARC-Bench 的隐藏测试与成本约束下评估
-
-- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
-
-> 后续参赛 / 复盘项目会持续补充到这里。
-
 
 ### [mcd-repeat-smarter](https://github.com/EAnge1o/mcd-repeat-smarter) · 麦当劳中国程序员创意开发大赛
 
@@ -60,16 +50,26 @@
 
 > 在线体验 & 项目主页：<https://eange1o.github.io/midnight-oracle/>
 
+## 🏆 比赛 · Agent 与算法赛事
 
+### [octos-arc（初版agent 迭代在私人仓库）](https://github.com/EAnge1o/octos-arc)
 
+一个基于 Octos 的自主软件工程 Agent，能把需求文档和参考图转换成可运行的全栈 Web 应用
+通过 Playwright 自测和修复闭环迭代，并在 ARC-Bench 的隐藏测试与成本约束下评估
 
-### [Kaggle-Google-The-Gemma-4-Developer-Agent](https://github.com/EAnge1o/Kaggle-Google-The-Gemma-4-Developer-Agent) · Kaggle Google - The Gemma 4 Developer Agent
+- 📝 复盘沉淀以及进阶比赛迭代在私人仓库（可私下分享）
 
-`🔴 比赛中` 基于 Gemma 4 的开发 Agent，比赛中，待上传分享。
+> 后续参赛 / 复盘项目会持续补充到这里。
 
 ### [ARC-Prize-2026-ARC-AGI-3](https://github.com/EAnge1o/ARC-Prize-2026-ARC-AGI-3) · ARC Prize 2026 - ARC-AGI-3
 
 `🔴 比赛中` ARC-AGI-3 方案，比赛中，待上传分享。
+
+## 🏆 Kaggle
+
+### [Kaggle-Google-The-Gemma-4-Developer-Agent](https://github.com/EAnge1o/Kaggle-Google-The-Gemma-4-Developer-Agent) · Kaggle Google - The Gemma 4 Developer Agent
+
+`🔴 比赛中` 基于 Gemma 4 的开发 Agent，比赛中，待上传分享。
 
 ### [Predicting-Airline-Satisfaction](https://github.com/EAnge1o/Predicting-Airline-Satisfaction) · Kaggle Playground S6E10
 
