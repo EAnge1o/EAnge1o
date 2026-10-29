@@ -32,7 +32,7 @@
 
 **黑客松**
 - **TruLens · 欧莱雅黑客松** — 面向美妆种草内容的多模态真实性核验 Agent：四维可信度分析 + 多 Agent 架构（源码在私人仓库）
-- **[octos-arc](https://github.com/EAnge1o/octos-arc)** — ARC-Bench 黑客松：自主软件工程 Agent，需求文档 + 参考图 → 可运行全栈 Web 应用
+- **[octos-arc](https://github.com/EAnge1o/octos-arc)** — ARC-Bench 黑客松：自主软件工程 Agent，需求文档 + 参考图 → 可运行全栈 Web 应用—（后续迭代比赛内容在私人仓库 可交流）
 
 ## 💼 应用与工程
 
