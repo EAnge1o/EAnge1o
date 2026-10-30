@@ -3,12 +3,14 @@
 
 ## 🚀 旗舰项目
 
+**🎉 双端已正式发布：[tapedeck-llm v0.2.0 · PyPI](https://pypi.org/project/tapedeck-llm/) · [@eange1o/mocktape v1.0.1 · npm](https://www.npmjs.com/package/@eange1o/mocktape) —— 任何机器上 `pip install tapedeck-llm` / `npm i -D @eange1o/mocktape` 即装即用**
+
 **[tapedeck](https://github.com/EAnge1o/tapedeck)** — LLM Agent 飞行记录仪 ⏺
 *Record once (REC), replay forever offline for free (PLAY), diff what drifted. Zero dependencies.*
 
-把 Agent 的一次完整运行（模型调用、工具调用、usage）录成带版本号的 JSONL trace；改完代码离线逐字节重放，零 API 成本；两个 run 一条命令 diff，直接定位第一个漂移的步骤。纯标准库零依赖，diff 退出码直连 CI 做回归测试。`tape.watch(client)` 还能直接拦截 OpenAI / Anthropic / DeepSeek SDK 的调用（含流式），不改业务代码就有录制与重放；自带 pytest fixture。`pip install tapedeck-llm`。
+把 Agent 的一次完整运行（模型调用、工具调用、usage）录成带版本号的 JSONL trace；改完代码离线逐字节重放，零 API 成本；两个 run 一条命令 diff，直接定位第一个漂移的步骤。纯标准库零依赖，diff 退出码直连 CI 做回归测试。`tape.watch(client)` 还能直接拦截 OpenAI / Anthropic / DeepSeek SDK 的调用（含流式），不改业务代码就有录制与重放；自带 pytest fixture。**`pip install tapedeck-llm`（[PyPI](https://pypi.org/project/tapedeck-llm/) 已发布）**。
 
-姊妹工具 📼 **[mocktape](https://github.com/EAnge1o/mocktape)** — 同一个"磁带"隐喻用在 HTTP 层：一份配置文件生成带状态的 CRUD 接口，真实 API 录制成磁带离线回放，未命中请求给出「最近匹配」诊断，支持场景切换、故障注入与实时流量面板。mocktape 管 HTTP 流量，tapedeck 管 agent 决策，常常一起出现在同一个测试套件里。
+姊妹工具 📼 **[mocktape](https://github.com/EAnge1o/mocktape)** — 同一个"磁带"隐喻用在 HTTP 层：一份配置文件生成带状态的 CRUD 接口，真实 API 录制成磁带离线回放，未命中请求给出「最近匹配」诊断，支持场景切换、故障注入与实时流量面板。mocktape 管 HTTP 流量，tapedeck 管 agent 决策，常常一起出现在同一个测试套件里。**`npm i -D @eange1o/mocktape`（[npm](https://www.npmjs.com/package/@eange1o/mocktape) 已发布）**。
 
 ## 🏆 比赛 · Kaggle · 黑客松
 
