@@ -3,7 +3,7 @@
 
 ## 🚀 旗舰项目
 
-**🎉 磁带三件套已发布：[tapedeck-llm v0.2.0 · PyPI](https://pypi.org/project/tapedeck-llm/) · [@eange1o/mocktape v1.0.1 · npm](https://www.npmjs.com/package/@eange1o/mocktape) · mcptape（MCP 磁带，发布中）—— `pip install tapedeck-llm` / `npm i -D @eange1o/mocktape`**
+**🎉 磁带三件套已全部发布：[tapedeck-llm v0.2.0 · PyPI](https://pypi.org/project/tapedeck-llm/) · [@eange1o/mocktape v1.0.1 · npm](https://www.npmjs.com/package/@eange1o/mocktape) · [mcptape v0.1.0 · PyPI](https://pypi.org/project/mcptape/) —— `pip install tapedeck-llm` / `pip install mcptape` / `npm i -D @eange1o/mocktape`**
 
 **[tapedeck](https://github.com/EAnge1o/tapedeck)** — LLM Agent 飞行记录仪 ⏺
 *Record once (REC), replay forever offline for free (PLAY), diff what drifted. Zero dependencies.*
